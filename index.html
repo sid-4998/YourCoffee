@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourCoffee</title>
+    <link type="image/png" sizes="32x32" rel="icon" href="./assets/icons8-coffee-beans-32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d6c55026df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header-container">
+        <header>
+            <div class="container-icon-title">
+                <i class="fa-solid fa-mug-hot"></i>
+                <h2 class="title">YourCoffee</h2>
+            </div>
+            <nav class="navbar">
+                <a href="#home" class="nav">Home</a>
+                <a href="#menu" class="nav">Menu</a>
+                <a href="#about" class="nav">About</a>
+                <a href="#testimonials" class="nav">Testimonials</a>
+                <a href="#contact" class="nav">Contact</a>
+            </nav>
+            <div class="container-mobile">
+                <div class="tooltip">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <div class="text">Login</div>
+                </div>
+                <div class="tooltip">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="text">Cart</div>
+                </div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <i class="fa-solid fa-xmark"></i>
+            <nav class="dropdown">
+                <a href="#home" class="nav-drop nd">Home</a>
+                <hr class="rule">
+                <a href="#menu" class="nav-drop nd2">Menu</a>
+                <hr class="rule">
+                <a href="#about" class="nav-drop nd1">About</a>
+                <hr class="rule">
+                <a href="#testimonials" class="nav-drop nd3">Testimonials</a>
+                <hr class="rule">
+                <a href="#contact" class="nav-drop nd4">Contact</a>
+            </nav>
+        </header>
+    </div>
+    <section id="home">
+        <div class="hero">
+            <div class="hero-container">
+                <div class="hero-slider">
+                    <img src="./assets/4312069.JPG" alt="Custom hero image" class="slider">
+                </div>
+                <div class="hero-description">
+                    <h1 class="hero-title">Brew Your Perfect<br>Moment with yourCoffee</h1>
+                    <p class="paragraph">Explore curated blends and coffee essentials tailored to your flavor, crafted to elevate every sip into a rich and personal coffee experience</p>
+                    <div class="CTA">
+                        <a href="#menu"><button class="order-button">Order now</button></a>
+                        <button class="contact-button">Contact us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="menu-slider">
+            <div class="menu-description">
+                <div class="menu-head">
+                    <h1 class="menu-title">Our Menu</h1>
+                    <p class="menu-paragraph">Discover curated coffees made from premium beans, expertly roasted and brewed to perfection. Sip, savor, and find your new favorite!</p>
+                </div>
+                <div class="menu-list">
+                    <p id="am">Americano</p>
+                    <p id="cap">Cappuccino</p>
+                    <p id="es">Espresso</p>
+                    <p id="ir">Irish Coffee</p>
+                    <p id="lat">Latte</p>
+                    <p id="mo">Mocha</p>
+                    <p id="af">Affogato</p>
+                    <p id="fr">Frappuccino</p>
+                </div>
+            </div>
+            <div class="slide-container">
+                <div class="details">
+                    <div class="detail-slider">
+                        <div class="americano" id="americano">
+                            <div class="price-detail">
+                                <p class="price">3$</p>
+                            </div>
+                            <i class="fa-solid fa-basket-shopping menu-icon"></i>
+                            <i class="fa-solid fa-angle-right americano"></i>
+                            <img src="./assets/ChatGPT Image Dec 6, 2025, 06_42_23 PM.png" alt="" class="menu-image-americano">
+                            <div class="menu-detail-americano">
+                                <p>Americano</p>
+                                <p>A classic blend of rich espresso and hot water, creating a smooth, balanced cup with gentle depth and a clean finish</p>
+                            </div>
+                        </div>
+                        <div class="cappuccino" id="cappuccino">
+                            <div class="price-detail">
+                                <p class="price">2$</p>
+                            </div>
+                            <i class="fa-solid fa-basket-shopping menu-icon"></i>
+                            <i class="fa-solid fa-angle-right cappuccino"></i>
+                            <i class="fa-solid fa-angle-left cappuccino"></i>
+                            <img src="./assets/ChatGPT Image Dec 6, 2025, 06_45_32 PM.png" alt="Cappuccino" class="menu-image-cappuccino">
+                            <div class="menu-detail-cappuccino">
+                                <p>Cappuccino</p>
+                                <p>A harmonious trio of espresso, steamed milk, and airy foam, creating a balanced, aromatic cup.</p>
+                            </div>
+                        </div>
+                        <div class="espresso" id="espresso">
+                            <div class="price-detail">
+                                <p class="price">3$</p>
+                            </div>
+                            <i class="fa-solid fa-basket-shopping menu-icon"></i>
+                            <i class="fa-solid fa-angle-right espresso"></i>
+                            <i class="fa-solid fa-angle-left espresso"></i>
+                            <img src="./assets/ChatGPT Image Dec 6, 2025, 06_47_06 PM.png" alt="Espresso" class="menu-image-espresso">
+                            <div class="menu-detail-espresso">
+                                <p>Espresso</p>
+                                <p>A rich, concentrated shot of coffee extracted under pressure for a bold, robust flavor and a signature golden crema</p>
+                            </div>
+                        </div>
+                        <div class="irish" id="irish">
+                            <div class="price-detail">
+                                <p class="price">10$</p>
+                            </div>
+                            <i class="fa-solid fa-basket-shopping menu-icon"></i>
+                            <i class="fa-solid fa-angle-right irish"></i>
+                            <i class="fa-solid fa-angle-left irish"></i>
+                            <img src="./assets/ChatGPT Image Dec 6, 2025, 06_48_12 PM.png" alt="Espresso" class="menu-image-irish">
+                            <div class="menu-detail-irish">
+                                <p>Irish Coffee</p>
+                                <p>A comforting mix of hot coffee, Irish whiskey, and brown sugar, topped with a silky layer of fresh cream for a warm, smooth finish</p>
+                            </div>
+                        </div>
+                        <div class="latte" id="latte">
+                            <div class="price-detail">
+                                <p class="price">5$</p>
+                            </div>
+                            <i class="fa-solid fa-basket-shopping menu-icon"></i>
+                            <i class="fa-solid fa-angle-right latte"></i>
+                            <i class="fa-solid fa-angle-left latte"></i>
+                            <img src="./assets/ChatGPT Image Dec 6, 2025, 06_49_43 PM.png" alt="Latte" class="menu-image-latte">
+                            <div class="menu-detail-latte">
+                                <p>Latte</p>
+                                <p>Rich, full-bodied espresso blended with sweet, steamed milk and a thin layer of foam</p>
+                            </div>
+                        </div>
+                        <div class="mocha" id="mocha">
+                            <div class="price-detail">
+                                <p class="price">6$</p>
+                            </div>
+                            <i class="fa-solid fa-basket-shopping menu-icon"></i>
+                            <i class="fa-solid fa-angle-right mocha"></i>
+                            <i class="fa-solid fa-angle-left mocha"></i>
+                            <img src="./assets/ChatGPT Image Dec 7, 2025, 10_55_46 AM.png" alt="Mocha" class="menu-image-mocha">
+                            <div class="menu-detail-mocha">
+                                <p>Mocha</p>
+                                <p>A delightful blend of rich espresso, steamed milk, and decadent chocolate sauce, finished with a layer of foam or whipped cream</p>
+                            </div>
+                        </div>
+                        <div class="affogato" id="affogato">
+                            <div class="price-detail">
+                                <p class="price">8$</p>
+                            </div>
+                            <i class="fa-solid fa-basket-shopping menu-icon"></i>
+                            <i class="fa-solid fa-angle-right affogato"></i>
+                            <i class="fa-solid fa-angle-left affogato"></i>
+                            <img src="./assets/ChatGPT Image Dec 7, 2025, 11_27_21 AM.png" alt="Affogato" class="menu-image-affogato">
+                            <div class="menu-detail-affogato">
+                                <p>Affogato</p>
+                                <p>Velvety vanilla ice cream meets a rich, hot shot of espresso, creating a luxurious, melty swirl of coffee and cream</p>
+                            </div>
+                        </div>
+                        <div class="frappuccino" id="frappuccino">
+                            <div class="price-detail">
+                                <p class="price">7$</p>
+                            </div>
+                            <i class="fa-solid fa-basket-shopping menu-icon"></i>
+                            <i class="fa-solid fa-angle-left frappuccino"></i>
+                            <img src="./assets/freepik__create-a-frappuccino-brownishblack-background-1024__15598 (1).png" alt="Affogato" class="menu-image-frappuccino">
+                            <div class="menu-detail-frappuccino">
+                                <p>Frappuccino</p>
+                                <p>Our signature blended iced beverage, combining coffee (or crème base), milk, and ice, finished with a swirl of whipped cream</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-container">
+            <h1 class="about-title">Meet Our Founder</h1>
+            <div class="founder-story">
+                <img src="./assets/brunette-businesswoman-posing.jpg" alt="Our founder" class="founder-image">
+                <div class="story">
+                    <p>YourCoffee began with a simple belief: great coffee should be easy to enjoy, anytime, anywhere. What started as a personal passion for brewing and exploring unique blends soon grew into a mission to bring high-quality, thoughtfully crafted coffee to everyone.</p>
+                    <br>
+                    <p>From experimenting with beans and roasts to refining every cup for balance and flavor, the journey has been driven by curiosity and a love for the craft. Each step shaped a vision focused on transparency, freshness, and an authentic coffee experience.</p>
+                    <br>
+                    <p>Today, yourCoffee continues to grow with that same passion — creating blends that inspire connection, comfort, and the joy of a truly great cup.</p>
+                    <cite class="citation">Emily Stark</cite>
+                </div>
+            </div>
+            <h1 class="about-title">Bean and Beyond</h1>
+            <div class="journey">
+                <div class="process-container">
+                    <p>Coffee making begins with roasted and rested coffee beans that are ground to a size suited for the brewing method, then combined with hot water to extract their flavors and aromas; the water dissolves oils, acids, and soluble compounds from the grounds, and the resulting brew is either filtered or left unfiltered depending on the method before being served black or with milk, cream, or sweeteners to create the final cup.</p>
+                    <video controls class="process-video">
+                        <source src="./videos/mixkit-video-sequence-of-the-coffee-preparation-process-4989-hd-ready.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <h1 class="about-title" style="text-align: center;">No Cap Cappuccino</h1>
+                <div class="bestseller">
+                    <video controls class="process-video">
+                        <source src="./videos/mixkit-serving-a-sparkling-cappuccino-in-a-cup-41859-hd-ready.mp4" type="video/mp4">
+                    </video>
+                    <p>Indulge in a timeless classic with our signature, best-selling Classic Cappuccino. This beloved drink is celebrated for striking the perfect balance between robust coffee flavor and a luxurious, creamy texture. The combination of microfoamed milk and airy foam creates a delightful and comforting mouthfeel. Whether you need a morning heart-starter or a cozy afternoon break, this cappuccino is the perfect companion for any occasion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="testimonial-container">
+            <div class="testimonial-track">
+                <div class="one">
+                    <p>"Life is too short to drink bad coffee. This brand delivers an exceptional experience in every cup, making it my new go-to for quality and flavor."</p>
+                    <div class="member">
+                        <img src="./assets/avatar-1.png" alt="Emily Rodriguez">
+                        <div class="member-detail">
+                            <cite>Emily Rodriguez</cite>
+                            <p><cite>Founder, Rodriguez Designs</cite></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="two">
+                    <p>"This coffee provides the perfect balance of great taste and the energy boost I need to power through long coding sessions."</p>
+                    <div class="member">
+                        <img src="./assets/avatar-2.png" alt="David Cheng">
+                        <div class="member-detail">
+                            <cite>David Cheng</cite>
+                            <p><cite>Software Engineer, TechCorp</cite></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="three">
+                    <p>"The quality of this coffee is consistently outstanding, exceeding my expectations every time. It's a game changer for our office mornings!"</p>
+                    <div class="member">
+                        <img src="./assets/avatar-3.png" alt="Sarah Jenkins">
+                        <div class="member-detail">
+                            <cite>Sarah Jenkins</cite>
+                            <p><cite>CEO, Apex Solutions</cite></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="four">
+                    <p>"I've never tasted a decaf this good; you wouldn't even know the difference. It has a rich, smooth, and intoxicating aroma."</p>
+                    <div class="member">
+                        <img src="./assets/avatar-4.png" alt="Mark Robertson">
+                        <div class="member-detail">
+                            <cite>Mark Robertson</cite>
+                            <p><cite>Head Chief, The Daily Cafe</cite></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="one">
+                    <p>"Life is too short to drink bad coffee. This brand delivers an exceptional experience in every cup, making it my new go-to for quality and flavor."</p>
+                    <div class="member">
+                        <img src="./assets/avatar-1.png" alt="Emily Rodriguez">
+                        <div class="member-detail">
+                            <cite>Emily Rodriguez</cite>
+                            <p><cite>Founder, Rodriguez Designs</cite></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="two">
+                    <p>"This coffee provides the perfect balance of great taste and the energy boost I need to power through long coding sessions."</p>
+                    <div class="member">
+                        <img src="./assets/avatar-2.png" alt="David Cheng">
+                        <div class="member-detail">
+                            <cite>David Cheng</cite>
+                            <p><cite>Software Engineer, TechCorp</cite></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="three">
+                    <p>"The quality of this coffee is consistently outstanding, exceeding my expectations every time. It's a game changer for our office mornings!"</p>
+                    <div class="member">
+                        <img src="./assets/avatar-3.png" alt="Sarah Jenkins">
+                        <div class="member-detail">
+                            <cite>Sarah Jenkins</cite>
+                            <p><cite>CEO, Apex Solutions</cite></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="four">
+                    <p>"I've never tasted a decaf this good; you wouldn't even know the difference. It has a rich, smooth, and intoxicating aroma."</p>
+                    <div class="member">
+                        <img src="./assets/avatar-4.png" alt="Mark Robertson">
+                        <div class="member-detail">
+                            <cite>Mark Robertson</cite>
+                            <p><cite>Head Chief, The Daily Cafe</cite></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <h2>Contact Us</h2>
+        <p class="contact-subtext">Have a question or want to collaborate? We'd love to hear from you.</p>
+        <div class="contact-container">
+          <form id="contactForm" class="contact-form">
+            <div class="input-box">
+              <input type="text" id="name" required placeholder="name"/>
+            </div>
+        
+            <div class="input-box">
+              <input type="email" id="email" required placeholder="email"/>
+            </div>
+        
+            <div class="input-box">
+              <textarea id="message" rows="4" required placeholder="message"></textarea>
+            </div>
+        
+            <button type="submit" class="contact-btn">Send Message</button>
+          </form>
+          <div class="contact-info">
+            <h3>Reach Us</h3>
+            <p>📍 YourCoffee HQ, Bengaluru</p>
+            <p>📞 +91 9431381557</p>
+            <p>✉️ support@yourcoffee.com</p>
+          </div>
+        </div>
+        <div id="successPopup" class="success-popup">Message Sent Successfully!</div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
