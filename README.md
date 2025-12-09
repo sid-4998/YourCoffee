@@ -82,7 +82,9 @@ Handled open/close behavior using event listeners to prevent layout breaking on 
 - **Google Fonts**
 - **Custom Images & Videos**
 
-- ## How to run this website
+---
+
+## How to run this website
 - How to Run This Project
 1. Clone the repository: git clone https://github.com/sid-4998/YourCoffee.git
 3. Navigate into the folder
